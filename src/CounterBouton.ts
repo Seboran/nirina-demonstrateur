@@ -5,7 +5,7 @@ import {
   For,
   NoeudModel,
   Text,
-} from "nirina.js";
+} from "nirina.js/dist/index.js";
 
 let counterValue = 0;
 const reactiveValue = new ComputedList<NoeudModel>([Div().addId('counter-0').addChild(Text(`Counter is ${counterValue}`)).build()]);

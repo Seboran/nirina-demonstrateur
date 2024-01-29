@@ -1,7 +1,7 @@
 import "./style.css";
 import typescriptLogo from "./typescript.svg";
 import { setupCounter } from "./counter";
-import { Div, mount, Element, Text } from "nirina.js";
+import { Div, mount, Element, Text } from "nirina.js/dist/index.js";
 import { CounterBouton } from "./CounterBouton";
 
 // document.querySelector<HTMLDivElement>('#app')!.innerHTML = `

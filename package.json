@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "nirina.js": "link:nirina.js"
+    "nirina.js": "0.0.1"
     },
   "devDependencies": {
     "prettier": "^3.2.4",
